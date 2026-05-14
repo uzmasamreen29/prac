@@ -7,7 +7,7 @@ pool:
 steps:
 - task: Maven@4
   inputs:
-    mavenPomFile: 'prac/src/pom.xml'
+    mavenPomFile: 'app1/src/pom.xml'
     goals: 'package'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.17'
